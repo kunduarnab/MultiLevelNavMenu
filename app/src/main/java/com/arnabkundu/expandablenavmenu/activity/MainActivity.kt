@@ -73,7 +73,8 @@ class MainActivity : AppCompatActivity() {
                 override fun onBack() {
                     onBackPressed()
                 }
-            })).commit()
+            }))
+                .commit()
     }
 
     private fun replaceFragment(fragment: Fragment) {
